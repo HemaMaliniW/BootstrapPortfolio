@@ -1,39 +1,29 @@
-h1,p {
-	font-size: 20px;
-	font-family: sans-serif;
-	font-color:grey;
+
+h1, h4, h5, {
+  font-size: 30px;
+    font-family:'Open Sans',sans-serif;
+  font-color:#999;
 }
 
-.box-set {
-  position: absolute;
-  height: 500px;
-  width: 800px;
-  background: lightgrey;
+ a{ font-size: 20px;
+  font-family:'Open Sans',sans-serif;
+    font-color:darkgrey;
+ }
+/*h4::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}*/
+
+/*div.container {
+  background-color: lightgray;
+    width: 80%;
+    padding: 25px;
+    margin: 25px;*/
+}
+#bio-image{
+    width: 200px;
+    height:200px;
 }
 
-.box {
-  /* absolute positioning */
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  background: lightblue;
-  border: 5px  black;
-}
-
-.box-1 {
-  top: 20px;
-}
-
-.box-2 {
-	bottom: 20px;
-  left: -5px;
-}
-
-.box-3 {
-  right: 200px;
-  bottom: 20px;
-}
-.box-4 {
-  right: 200px;
-  top: 20px;
-}
+#footer{
+  background-color:lightgrey;

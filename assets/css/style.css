@@ -1,21 +1,29 @@
 
-h1,p {
-	font-size: 20px;
-	font-family: sans-serif;
-	font-color:darkgrey;
+h1, h2 {
+	font-size: 30px;
+    font-family:'Open Sans',sans-serif;
+	font-color:#999;
 }
+
+p, a{ font-size: 20px;
+  font-family:'Open Sans',sans-serif;
+    font-color:darkgrey;
+ }
 p::first-letter {
     color: #ff0000;
     font-size: xx-large;
 }
 
-/*div.container {
-	background-color: lightgrey;
+div.container {
+	background-color: lightgray;
     width: 80%;
     padding: 25px;
     margin: 25px;
-}*/
-
+}
+img{
+    width: 50px;
+    height:50px;
+}
 /*background image*/
 
 
@@ -24,17 +32,13 @@ p::first-letter {
 
  /* bottom = footer height */
 
-.footer {
+/*.footer {
     position: absolute;
     left: 0;
     bottom: 0;
     color:black;
-    height: 100px;
+    height: 50px;
     width: 100%;
     font-size: 5px;
-}
+}*/
 
-img{
-    width: 200px;
-    height:200px;
-}

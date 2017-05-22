@@ -1,9 +1,16 @@
-h1,p {
+h1 {
     font-size: 20px;
-    font-family: sans-serif;
+    font-family:'Open Sans',sans-serif;
     font-color:darkgray;
 }
-input[type=text], select, textarea {
+div.container {
+    background-color: lightgrey;
+    width: 80%;
+    padding: 25px;
+    margin: 25px;
+}
+
+/*input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -31,4 +38,4 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-}
+}*/
